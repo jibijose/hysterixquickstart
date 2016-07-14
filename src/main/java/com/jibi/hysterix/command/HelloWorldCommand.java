@@ -19,7 +19,7 @@ public class HelloWorldCommand extends HystrixCommand<String> {
   @Override
   protected String run() throws Exception {
     LOGGER.debug("Run invoked");
-     CommonUtil.sleep(15000);
+     CommonUtil.sleep(8000);
      LOGGER.debug("Run returning");
      return "Hello World";
 
